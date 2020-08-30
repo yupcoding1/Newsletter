@@ -6,6 +6,7 @@ body {
 header {
   background-color: black;
   color: #fff;
+  box-shadow: rgb(153, 153, 153) 0px 3px 10px;
 }
 
 header img {
@@ -21,9 +22,4 @@ header .sub-title {
 
 .o-title {
   font-size: 2rem;
-}
-
-.card:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s;
 }
