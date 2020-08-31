@@ -23,3 +23,14 @@ header .sub-title {
 .o-title {
   font-size: 2rem;
 }
+.active {
+  box-shadow: rgb(153, 153, 153) 0px 3px 10px;
+  padding: 15px;
+}
+.card-deck .card {
+  box-shadow: rgb(153, 153, 153) 0px 3px 10px;
+  max-width: 320px;
+}
+.card-body {
+  border-top: solid 3px black;
+}
