@@ -1,6 +1,7 @@
 html,
 body {
   overflow-x: hidden;
+  margin: 0;
 }
 
 header {
@@ -31,6 +32,15 @@ header .sub-title {
   box-shadow: rgb(153, 153, 153) 0px 3px 10px;
   max-width: 320px;
 }
-.card-body {
-  border-top: solid 3px black;
+.card-img-top {
+  border-bottom: solid 3px black;
+}
+.text-muted {
+  padding: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .text-muted {
+    padding: 0;
+  }
 }
