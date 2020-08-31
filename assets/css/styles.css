@@ -44,3 +44,7 @@ header .sub-title {
     padding: 0;
   }
 }
+.footer-copyright {
+  background-color: #000;
+  color: #eee;
+}
